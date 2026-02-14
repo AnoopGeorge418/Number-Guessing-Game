@@ -1,7 +1,7 @@
 [project]
 name = "number-guessing-game"
 version = "0.1.0"
-description = "Add your description here"
+description = "An intresting number guessing game"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []

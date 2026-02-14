@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = []
+# ///
+
 def main():
     print("Hello from number-guessing-game!")
 
