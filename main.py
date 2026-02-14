@@ -3,6 +3,7 @@
 # dependencies = []
 # ///
 
+
 def main():
     print("Hello from number-guessing-game!")
 
