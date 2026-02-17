@@ -1,10 +1,10 @@
 import time, sys
-from src.v5.user_guess import computerVsUser
-from src.v5.users import userVsUser
-from src.v5.computers import computerVsComputer
-from src.v5.online import onlinePlay
-from src.v5.aiVsUser import aiVsUser
-from src.v5.ais import aiVsAi
+from src.v6.user_guess import computerVsUser
+from src.v6.users import userVsUser
+from src.v6.computers import computerVsComputer
+from src.v6.online import onlinePlay
+from src.v6.aiVsUser import aiVsUser
+from src.v6.ais import aiVsAi
 
 def startGame():
     print("Welcome to Number Guessing Game Application Version 4.")
