@@ -4,7 +4,7 @@
 # holder gives hints and messages
 
 from random import shuffle
-from src.v4.computer_secret import secret
+from src.v5.computer_secret import secret
 
 def userVsUser():
     players = []
