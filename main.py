@@ -1,4 +1,4 @@
-from src.v4.NumberGuessingGame import startGame
+from src.v5.NumberGuessingGame import startGame
 
 def main():
     startGame()
