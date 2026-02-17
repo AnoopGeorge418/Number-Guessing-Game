@@ -1,12 +1,7 @@
-# /// script
-# requires-python = ">=3.14"
-# dependencies = []
-# ///
-
+from src.v1.NumberGuessingGame import startGame
 
 def main():
-    print("Hello from number-guessing-game!")
-
+    startGame()
 
 if __name__ == "__main__":
     main()
