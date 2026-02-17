@@ -1,4 +1,4 @@
-from src.v3.computer_secret import secret
+from src.v4.computer_secret import secret
 import sys
 
 def computerVsUser():

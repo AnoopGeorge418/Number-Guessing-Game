@@ -1,13 +1,13 @@
 import time, sys
-from src.v3.user_guess import computerVsUser
-from src.v3.users import userVsUser
-from src.v3.computers import computerVsComputer
-from src.v3.online import onlinePlay
-from src.v3.aiVsUser import aiVsUser
-from src.v3.ais import aiVsAi
+from src.v4.user_guess import computerVsUser
+from src.v4.users import userVsUser
+from src.v4.computers import computerVsComputer
+from src.v4.online import onlinePlay
+from src.v4.aiVsUser import aiVsUser
+from src.v4.ais import aiVsAi
 
 def startGame():
-    print("Welcome to Number Guessing Game Application Version 3.")
+    print("Welcome to Number Guessing Game Application Version 4.")
     time.sleep(1)
 
     while True:
