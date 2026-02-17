@@ -1,8 +1,8 @@
-from src.v2.computer_secret import secret
+from src.v3.computer_secret import secret
 import sys
 
-def user():
-    computer_secret = secret()
+def computerVsUser():
+    computer_secret = secret(1, 100)
     total_attempts = 5
     current_attempts = 0
 
@@ -12,6 +12,7 @@ def user():
 
             if user_guess == computer_secret:
                 print("Correct - You Win!")
+                print('/n')
                 break
             elif user_guess > computer_secret:
                 print("Try lower")
@@ -23,7 +24,8 @@ def user():
                 print(f"Total Attempt left: { total_attempts - current_attempts }")
 
             if current_attempts == 5:
-                print(f"No More Attempt left, GAME OVER, The SECRET is: {computer_secret}")
+                print(f"GAME OVER, Computer Won! You Lose")
+                print(f"The SECRET NUMBER is: {computer_secret} \n")
                 break
         
         except ValueError as v:
